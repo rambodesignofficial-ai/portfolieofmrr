@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="nl" data-lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mehmet Raman Resitoglu</title>
+    <link rel="stylesheet" href="me.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <div class="cursor-glow"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="results.html" class="brand">Mehmet Raman Resitoglu - MRR</a>
+
+        <button
+          class="hamburger"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav nav-desktop">
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#skills" data-i18n="nav.skills">Skills</a>
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#work" data-i18n="nav.work">Work</a>
+          <div class="nav-controls">
+            <button
+              class="theme-toggle"
+              aria-label="Toggle theme"
+              title="Toggle dark/light mode"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="5" />
+                <line x1="12" y1="1" x2="12" y2="3" />
+                <line x1="12" y1="21" x2="12" y2="23" />
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                <line x1="1" y1="12" x2="3" y2="12" />
+                <line x1="21" y1="12" x2="23" y2="12" />
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+              </svg>
+            </button>
+            <button class="lang-toggle" aria-label="Toggle language">
+              <span class="lang-text" data-lang-display="nl">EN</span>
+            </button>
+          </div>
+          <a href="#contact" class="nav-cta" data-i18n="nav.contact">Contact</a>
+        </nav>
+
+        <nav class="nav nav-mobile">
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#skills" data-i18n="nav.skills">Skills</a>
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#work" data-i18n="nav.work">Work</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+          <div class="nav-mobile-controls">
+            <button
+              class="theme-toggle"
+              aria-label="Toggle theme"
+              title="Toggle dark/light mode"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="5" />
+                <line x1="12" y1="1" x2="12" y2="3" />
+                <line x1="12" y1="21" x2="12" y2="23" />
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                <line x1="1" y1="12" x2="3" y2="12" />
+                <line x1="21" y1="12" x2="23" y2="12" />
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+              </svg>
+            </button>
+            <button class="lang-toggle" aria-label="Toggle language">
+              <span class="lang-text" data-lang-display="nl">EN</span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-copy reveal">
+          <p class="hero-kicker" data-i18n="hero.kicker">
+            Creative Software Development
+          </p>
+
+          <h1 data-i18n="hero.title">
+            I build modern
+            <span>websites</span>
+            that feel clear, fast and professional.
+          </h1>
+
+          <p class="hero-text" data-i18n="hero.subtitle">
+            Ik ben Mehmet Raman Resitoglu, 18 jaar en woon in Rotterdam. Ik volg
+            de opleiding Creative Software Development aan het Grafisch Lyceum
+            Rotterdam en richt mij op het bouwen van moderne websites met HTML,
+            CSS, JavaScript en PHP.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary" data-i18n="hero.cta1"
+              >Bekijk werk</a
+            >
+            <a href="#contact" class="btn btn-secondary" data-i18n="hero.cta2"
+              >Neem contact op</a
+            >
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-card">
+              <strong>18</strong>
+              <span data-i18n="meta.age">jaar</span>
+            </div>
+            <div class="meta-card">
+              <strong>Rotterdam</strong>
+              <span data-i18n="meta.location">based in</span>
+            </div>
+            <div class="meta-card">
+              <strong>GLR</strong>
+              <span data-i18n="meta.student">student</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="portrait-card">
+            <div class="portrait-shape"></div>
+            <img
+              src="profile.jpg"
+              alt="Profielfoto van Mehmet Raman Resitoglu"
+            />
+            <div class="active-badge">
+              <div class="active-dot"></div>
+              <span data-i18n="badge.available">Available</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section marquee-wrap">
+        <div class="marquee">
+          <div class="marquee-track">
+            <span
+              </span
+            >
+          </div>
+        </div>
+        <div class="marquee marquee-reverse">
+          <div class="marquee-track marquee-track-reverse">
+            <span
+              >HTML • CSS • JAVASCRIPT • PHP • MODERNE WEBSITES • PORTFOLIO • WEBSITES • LANDING PAGES • BEDRIJFSWEBSITES • HTML • CSS • JAVASCRIPT • PHP • MODERNE WEBSITES • PORTFOLIO • WEBSITES • LANDING PAGES • BEDRIJFSWEBSITES • HTML • CSS • JAVASCRIPT • PHP • MODERNE WEBSITES • PORTFOLIO • WEBSITES • LANDING PAGES • BEDRIJFSWEBSITES • HTML • CSS • JAVASCRIPT • PHP • MODERNE WEBSITES • PORTFOLIO • WEBSITES • LANDING PAGES • BEDRIJFSWEBSITES • HTML • CSS • JAVASCRIPT • PHP • MODERNE WEBSITES • PORTFOLIO • WEBSITES • LANDING PAGES • BEDRIJFSWEBSITES</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="about">
+        <div class="section-head">
+          <p class="section-kicker" data-i18n="about.kicker">About</p>
+          <h2 data-i18n="about.heading">
+            Ik focus op websites die niet alleen goed ogen, maar ook logisch en
+            sterk zijn opgebouwd.
+          </h2>
+        </div>
+
+        <div class="about-grid">
+          <article class="glass-card about-main">
+            <p data-i18n="about.text1">
+              Mijn focus ligt op websites, niet op webshops. Ik werk graag aan
+              portfolio websites, landing pages en bedrijfswebsites waarbij
+              structuur, uitstraling en gebruikservaring samen moeten kloppen.
+            </p>
+          </article>
+
+          <aside class="glass-card about-side">
+            <ul class="info-list">
+              <li>
+                <span data-i18n="info.name">Naam</span
+                ><strong>Mehmet Raman Resitoglu</strong>
+              </li>
+              <li>
+                <span data-i18n="info.age">Leeftijd</span
+                ><strong>18 jaar</strong>
+              </li>
+              <li>
+                <span data-i18n="info.location">Locatie</span
+                ><strong>Rotterdam</strong>
+              </li>
+              <li>
+                <span data-i18n="info.education">Opleiding</span
+                ><strong>Creative Software Development</strong>
+              </li>
+              <li>
+                <span data-i18n="info.school">School</span
+                ><strong>Grafisch Lyceum Rotterdam</strong>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="skills">
+        <div class="section-head">
+          <p class="section-kicker" data-i18n="skills.kicker">Skills</p>
+          <h2 data-i18n="skills.heading">
+            Mijn basis ligt in front-end en websites met nette interactie.
+          </h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-index">01</div>
+            <h3>HTML</h3>
+            <p data-i18n="skills.html">
+              Structuur opzetten die helder, semantisch en professioneel blijft.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-index">02</div>
+            <h3>CSS</h3>
+            <p data-i18n="skills.css">
+              Layouts, spacing, responsive gedrag en visuele afwerking.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-index">03</div>
+            <h3>JavaScript</h3>
+            <p data-i18n="skills.js">
+              Interactie, states, openklapbare componenten en dynamische flows.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-index">04</div>
+            <h3>PHP</h3>
+            <p data-i18n="skills.php">
+              Server-side basis voor websites die meer nodig hebben dan alleen
+              styling.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="services">
+        <div class="section-head">
+          <p class="section-kicker" data-i18n="services.kicker">How I work</p>
+          <h2 data-i18n="services.heading">
+            Klik op een onderdeel om meer te openen.
+          </h2>
+        </div>
+
+        <div class="accordion-list">
+          <details class="accordion" open>
+            <summary>
+              <span class="accordion-number">01</span>
+              <span class="accordion-title" data-i18n="services.s1.title"
+                >Landing Pages</span
+              >
+              <span class="accordion-icon"></span>
+            </summary>
+            <div class="accordion-content" data-i18n="services.s1.content">
+              Pagina’s met een sterke eerste indruk, duidelijke hiërarchie en
+              een professionele uitstraling die gericht is op helder
+              presenteren.
+            </div>
+          </details>
+
+          <details class="accordion">
+            <summary>
+              <span class="accordion-number">02</span>
+              <span class="accordion-title" data-i18n="services.s2.title"
+                >Bedrijfswebsites</span
+              >
+              <span class="accordion-icon"></span>
+            </summary>
+            <div class="accordion-content" data-i18n="services.s2.content">
+              Informatieve websites die overzichtelijk communiceren en verzorgd
+              aanvoelen voor klanten, bezoekers en bedrijven.
+            </div>
+          </details>
+
+          <details class="accordion">
+            <summary>
+              <span class="accordion-number">03</span>
+              <span class="accordion-title" data-i18n="services.s3.title"
+                >Portfolio Websites</span
+              >
+              <span class="accordion-icon"></span>
+            </summary>
+            <div class="accordion-content" data-i18n="services.s3.content">
+              Persoonlijke websites die werk, profiel en contact op een sterke
+              en moderne manier presenteren.
+            </div>
+          </details>
+
+          <details class="accordion">
+            <summary>
+              <span class="accordion-number">04</span>
+              <span class="accordion-title" data-i18n="services.s4.title"
+                >Clean UI & Interaction</span
+              >
+              <span class="accordion-icon"></span>
+            </summary>
+            <div class="accordion-content" data-i18n="services.s4.content">
+              Subtiele animatie, nette overgangen en duidelijke interactie
+              zonder dat de website druk of kinderachtig wordt.
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="work">
+        <div class="section-head">
+          <p class="section-kicker" data-i18n="work.kicker">Work</p>
+          <h2 data-i18n="work.heading">
+            Deze sectie blijft leeg tot er werk staat dat echt sterk genoeg is.
+          </h2>
+        </div>
+
+        <div class="work-grid">
+          <article class="work-card">
+            <div class="work-top">
+              <span data-i18n="work.type">Website</span>
+              <span data-i18n="work.status">Later</span>
+            </div>
+            <h3 data-i18n="work.title1">Project komt hier</h3>
+            <p data-i18n="work.desc1">
+              Hier komt later een websiteproject met preview, uitleg en link.
+            </p>
+          </article>
+
+          <article class="work-card">
+            <div class="work-top">
+              <span data-i18n="work.type">Website</span>
+              <span data-i18n="work.status">Later</span>
+            </div>
+            <h3 data-i18n="work.title2">Project komt hier</h3>
+            <p data-i18n="work.desc2">
+              Alleen werk dat goed genoeg is hoort hier te staan.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="contact">
+        <div class="contact-box">
+          <div>
+            <p class="section-kicker" data-i18n="contact.kicker">Contact</p>
+            <h2 data-i18n="contact.heading">
+              Klaar om samen iets sterks neer te zetten?
+            </h2>
+          </div>
+
+          <a href="mailto:mrr.zakelijk@gmail.com" class="contact-mail">
+            mrr.zakelijk@gmail.com
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span data-i18n="footer.copyright">© 2026 Mehmet Raman Resitoglu</span>
+        <span data-i18n="footer.program">Creative Software Development</span>
+      </div>
+    </footer>
+
+    <script src="me.js"></script>
+  </body>
+</html>
